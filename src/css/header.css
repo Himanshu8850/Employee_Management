@@ -1,0 +1,39 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; /* Ensures space between logo and welcome message */
+  padding: 0px 30px;
+  background-color: #ffffff; /* Example background color */
+  border-bottom: 1px solid #ccc;
+}
+
+.header-logo {
+  width: 130px; /* Adjust the size as needed */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Spacing between logo and text */
+}
+
+.header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: 25px;
+}
+
+.header ul li {
+  margin-right: 10px; /* Spacing for list items */
+}
+.PageName {
+  font-size: 30px;
+  font-weight: bolder;
+  list-style: none;
+  /* background-color: #e4e4e4; */
+  padding: 5px;
+  border-radius: 20px;
+  margin: 0;
+  /* position: relative; */
+  /* left: -200px; */
+  /* border: 1px solid black; */
+  /* box-shadow: 5px 5px rgba(0, 0, 0, 0.345); */
+}
